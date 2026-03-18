@@ -7,6 +7,6 @@ def func(x=0, y=0):
     return x ** 2 + y ** 2
 
 
-result = func(x=2, y=3)
-if 10 > result > 20:
+result = func(2, 3)
+if result > 10 and result < 20:
     print("Result in range")
